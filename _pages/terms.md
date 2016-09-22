@@ -9,7 +9,7 @@ permalink: /terms/
 
 Last updated: September 21, 2016
 
-Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the [http://jdhunterae.github.io](http://jdhunterae.github.io/) website (the "Service") operated by CoderDad ("us", "we", or "our").
+Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the [http://jdhunterae.github.io](http://jdhunterae.github.io/) website (the "Service") operated by DadCoder ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
 
@@ -17,9 +17,9 @@ By accessing or using the Service you agree to be bound by these Terms. If you d
 
 ##### Links To Other Web Sites
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by CoderDad.
+Our Service may contain links to third-party web sites or services that are not owned or controlled by DadCoder.
 
-CoderDad has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that CoderDad shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+DadCoder has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that DadCoder shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
 
 We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.
 

@@ -9,7 +9,7 @@ permalink: /privacy/
 
 Last updated: September 21, 2016
 
-CoderDad ("us", "we", or "our") operates the [http://jdhunterae.github.io](http://jdhunterae.github.io/) website (the "Service").
+DadCoder ("us", "we", or "our") operates the [http://jdhunterae.github.io](http://jdhunterae.github.io/) website (the "Service").
 
 This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.
 
