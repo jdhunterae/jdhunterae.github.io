@@ -1,6 +1,5 @@
 
-title: Code Whisperer \& Print Statement Enthusiast
-email: your-email@example.com
+title: AP Dev
 description: >- # this means to ignore newlines until "baseurl:"
   Technical problem solver extraordinaire who believes the most
   effective debugging tool is still careful thought...but a well-placed
@@ -12,7 +11,6 @@ url: "https://jdhunterae.github.io" # the base hostname & protocol for your site
 
 author:
   name: Andrew Pomerleau
-  email: your-email@example.com
   github: jdhunterae
   linkedin: andrew-pomerleau
 

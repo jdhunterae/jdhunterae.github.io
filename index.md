@@ -145,20 +145,12 @@ title: Home
         <div class="contact-content">
             <div class="contact-info">
                 <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:{{ site.author.phone }}">{{ site.author.phone | slice: 0, 2 }}({{ site.author.phone | slice: 2, 3 }}) {{ site.author.phone | slice: 5, 3 }}-{{ site.author.phone | slice: 8, 4 }}</a>
-                </div>
-                <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
-                    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">{{ site.author.linkedin }}</a>
+                    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">Connect on LinkedIn</a>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-github"></i>
-                    <a href="https://github.com/{{ site.author.github }}" target="_blank">{{ site.author.github }}</a>
+                    <a href="https://github.com/{{ site.author.github }}" target="_blank">Follow on GitHub</a>
                 </div>
             </div>
         </div>
