@@ -1,0 +1,149 @@
+/* Hero Section */
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.7)), url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: white;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+/* About Section */
+#about {
+  padding: 5rem 0;
+  background-color: white;
+
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    .skill-category {
+      flex: 1;
+      min-width: 200px;
+
+      h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        color: $secondary-color;
+      }
+
+      ul li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        padding-left: 1.2rem;
+
+        &::before {
+          content: '•';
+          position: absolute;
+          left: 0;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+/* Project Header Section */
+#project-header {
+  background-color: $primary-color;
+  color: white;
+  padding: 10rem 0 5rem;
+  text-align: center;
+
+  .project-header-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      color: white;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-tags {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      span {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+/* Project Content Section */
+#project-content {
+  padding: 4rem 0;
+
+  .project-details {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .project-image {
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+      }
+    }
+
+    .project-description {
+      line-height: 1.8;
+    }
+
+    .project-links {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+}

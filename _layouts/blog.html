@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section id="blog-hero">
+  <div class="container">
+    <h2>Blog</h2>
+    <p>Technical insights, project updates, and professional development.</p>
+  </div>
+</section>
+
+<section id="blog-content">
+  <div class="container">
+    <div class="blog-grid">
+      {% for post in site.posts %}
+      <article class="blog-post">
+        <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="blog-tags">
+          {% for tag in post.tags %}
+          <span>{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

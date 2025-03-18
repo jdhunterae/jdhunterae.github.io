@@ -1,0 +1,64 @@
+/* Header */
+header {
+  background-color: $dark-color;
+  padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: $box-shadow;
+
+  h1 {
+    color: white;
+    margin-bottom: 0.25rem;
+  }
+
+  .tagline {
+    color: $light-color;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        margin-right: 1.5rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          color: $light-color;
+          font-weight: 500;
+          padding: 0.5rem 0;
+          position: relative;
+
+          &::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: $secondary-color;
+            transition: $transition;
+          }
+
+          &:hover,
+          &.active {
+            color: white;
+
+            &::after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% if page.title %}{{ page.title }} | {{ site.title }}{% else
+      %}{{site.title}}{% endif %}
+    </title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/styles.css' | relative_url }}"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    {% seo %}
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>{{ site.title }}</h1>
+        <p class="tagline">Software Developer \& IT Systems Professional</p>
+        <nav>
+          <ul>
+            <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+            <li><a href="{{ '/#projects' | relative_url }}">Projects</a></li>
+            <li>
+              <a href="{{ '/#experience' | relative_url }}">Experience</a>
+            </li>
+            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {{ content }}
+    <footer>
+      <div class="container">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/#about' | relative_url }}">About</a>
+          <a href="{{ '/#projects' | relative_url }}">Projects</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/#contact' | relative_url }}">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+  </body>
+</html>

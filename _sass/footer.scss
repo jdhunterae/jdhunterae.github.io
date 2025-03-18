@@ -1,0 +1,20 @@
+/* Footer */
+footer {
+  background-color: $dark-color;
+  color: $light-color;
+  padding: 2rem 0;
+  text-align: center;
+
+  .footer-links {
+    margin-top: 1rem;
+
+    a {
+      color: $light-color;
+      margin: 0 0.5rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
