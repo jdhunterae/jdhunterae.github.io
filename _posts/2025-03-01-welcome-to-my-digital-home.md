@@ -41,7 +41,5 @@ I'm looking forward to sharing this space with you. Feel free to connect with me
 
 Thanks for stopping by!
 
-*"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."* – Brian Kernighan
-
 > "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."
 > –-Brian Kernighan
