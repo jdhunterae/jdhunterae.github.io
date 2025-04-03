@@ -40,7 +40,7 @@ Similarly, if the POSIX birth time (btime) differs substantially from the kMDIte
 
 Consider a scenario where you encounter a suspicious document on a Mac system. The standard timestamps might look normal, but examining the extended attributes reveals inconsistencies:
 
-```
+```bash
 $ mdls suspicious_document.pdf
 kMDItemCreateDate             = 2025-02-15 14:30:15 -0500
 kMDItemContentCreationDate    = 2024-11-03 08:12:44 -0500
@@ -72,7 +72,7 @@ Command-line investigators can leverage the built-in MacOS tools:
 
 - `mdls` - List all metadata attributes
 - `xattr -l` - List extended attributes
-- `stat` - Display POSIX timestamps
+- `stat -x` - Display POSIX timestamps
 
 ## Conclusion
 
