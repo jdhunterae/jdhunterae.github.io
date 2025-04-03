@@ -3,7 +3,7 @@ layout: project
 title: "MacOS Digital Forensics Suite"
 excerpt: "Managing development and support for professional MacOS Forensics Tools, working with C++, Python, and bash shell codebases."
 technologies: ["C++", "Python", "Digital Forensics"]
-image: /assets/images/projects/macos-forensics.jpg
+image: /assets/images/projects/macos-forensics-suite.png
 ---
 
 ## Project Overview

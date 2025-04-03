@@ -3,7 +3,7 @@ layout: project
 title: "MacOS Forensics Image Comparison Tool"
 excerpt: "A specialized Python tool for verifying the integrity of forensic disk images by analyzing timestamps and hash discrepancies between original volumes and their copies."
 technologies: ["Python", "SQLite", "hdiutil", "Digital Forensics"]
-image: /assets/images/projects/image-comparison-tool.jpg
+image: /assets/images/projects/forensics-image-comparison-tool.png
 ---
 
 ## Project Overview
