@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<section id="projects">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      {% for project in site.projects %}
+      <div class="project-card">
+        {% if project.image %}
+        <div class="project-image">
+          <img
+            src="{{ project.image | relative_url }}"
+            alt="{{ project.title }}"
+          />
+        </div>
+        {% else %}
+        <div class="project-image placeholder"></div>
+        {% endif %}
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.excerpt | strip_html | truncatewords: 20 }}</p>
+        <div class="project-tags">
+          {% for tech in project.technologies %}
+          <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+        <a href="{{ project.url | relative_url }}" class="btn secondary"
+          >Learn More</a
+        >
+      </div>
+      {% endfor %}
+    </div>
+    <div class="more-projects">
+      <a href="{{ '/projects/' | relative_url }}" class="btn primary"
+        >View All Projects</a
+      >
+    </div>
+  </div>
+</section>
