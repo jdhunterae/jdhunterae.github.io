@@ -3,7 +3,7 @@ layout: project
 title: "Acting Collab — Movies & TV Overlap via TMDb"
 excerpt: "A single-page app that finds true collaborations between two actors across movies and (optionally) TV, verifying TV overlaps at the episode level and keeping API keys private with a Netlify proxy."
 technologies: ["JavaScript", "HTML/CSS", "GitHub Pages", "Netlify Functions", "TMDb API", "AbortController", "LocalStorage"]
-image: /assets/images/projects/acting-collab.png
+image: /assets/images/projects/acting-collabs.png
 ---
 
 ## Project Overview
